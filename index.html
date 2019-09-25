@@ -50,6 +50,39 @@ body, html {
     min-height: 400px;
   }
 }
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  width: 200px;
+  bottom: 100%;
+  left: 0%;
+  margin-left: -70px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 </style>
 <body>
 
@@ -84,7 +117,9 @@ body, html {
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center">ABOUT ME</h3>
   <p>I am an undergraduate student at UC San Diego pursuing my bachelor degree in computer science with an expected graduation date of June 2020. 
-      I'm a professional <span title="kathak">Kathak is a classical Indian dance form originating from Northern India.</span> dancer of the Lucknow <span title="gharana">A style of music and movement specifically associated with kathak.</span>.</p>
+      I'm a professional <span class="tooltip">kathak<span class="tooltiptext">Kathak is one of the eight major forms of Indian classical dance. The origin of Kathak is traditionally attributed to the traveling bards of ancient northern India known as Kathakars or storytellers.</span></span> 
+      dancer of the Lucknow <span class="tooltip">gharana<span class="tooltiptext">A system of linking musicians or dancers by lineage or apprenticeship, and by adherence to a particular musical style.</span></span>
+      and have practiced for over nine years under my guru, Vibha Ramaswami. My years of practice culminated into a final solo two hour performance of eight different pieces.
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <p><b><i class="fa fa-user w3-margin-right"></i>My Name</b></p><br>
