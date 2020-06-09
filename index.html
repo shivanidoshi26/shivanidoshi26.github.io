@@ -16,15 +16,15 @@
     h6 {
         font-family: "Lato", sans-serif;
     }
-
+    
     body,
     html {
         height: 100%;
         color: #777;
         line-height: 1.8;
     }
-
     /* Create a Parallax Effect */
+    
     .bgimg-1,
     .bgimg-2,
     .bgimg-3 {
@@ -33,36 +33,35 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-
     /* First image (Logo. Full height) */
+    
     .bgimg-1 {
         background-image: url('/images/lightbackground2.jpg');
         min-height: 100%;
     }
-
     /* Second image (Work) */
+    
     .bgimg-2 {
         background-image: url("/images/lightbackground4.svg");
         min-height: 400px;
     }
-
     /* Third image (Contact) */
+    
     .bgimg-3 {
         background-image: url("/images/lightpink.jpeg");
         min-height: 400px;
     }
-
+    
     .w3-wide {
         letter-spacing: 10px;
     }
-
+    
     .w3-hover-opacity {
         cursor: pointer;
     }
-
     /* Turn off parallax scrolling for tablets and phones */
+    
     @media only screen and (max-device-width: 1600px) {
-
         .bgimg-1,
         .bgimg-2,
         .bgimg-3 {
@@ -70,16 +69,16 @@
             min-height: 400px;
         }
     }
-
     /* Tooltip container */
+    
     .tooltip {
         position: relative;
         display: inline-block;
         border-bottom: 1px dotted black;
         /* If you want dots under the hoverable text */
     }
-
     /* Tooltip text */
+    
     .tooltip .tooltiptext {
         visibility: hidden;
         width: 120px;
@@ -88,18 +87,16 @@
         text-align: center;
         padding: 5px 0;
         border-radius: 6px;
-
         width: 200px;
         bottom: 100%;
         left: 0%;
         margin-left: -70px;
-
         /* Position the tooltip text - see examples below! */
         position: absolute;
         z-index: 1;
     }
-
     /* Show the tooltip text when you mouse over the tooltip container */
+    
     .tooltip:hover .tooltiptext {
         visibility: visible;
     }
@@ -110,8 +107,7 @@
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
         <div class="w3-bar" id="myNavbar">
-            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
-                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
                 <i class="fa fa-bars"></i>
             </a>
             <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
@@ -131,8 +127,7 @@
     <!-- First Parallax Image with Logo Text -->
     <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
         <div class="w3-display-middle" style="white-space:nowrap;">
-            <span
-                class="w3-center w3-padding-large w3-black w3-xxxlarge w3-wide w3-animate-opacity w3-hover-text-white">SHIVANI
+            <span class="w3-center w3-padding-large w3-black w3-xxxlarge w3-wide w3-animate-opacity w3-hover-text-white">SHIVANI
                 <span class="w3-hide-small">DOSHI</span> </span>
         </div>
     </div>
@@ -142,46 +137,36 @@
         <h3 class="w3-center">ABOUT ME</h3>
         <div class="w3-row">
             <div class="w3-col m6 w3-center w3-padding-large">
-                <img src="/images/me.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me"
-                    width="500" height="333">
+                <img src="/images/me.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
             </div>
 
             <div class="w3-col m6 w3-center w3-padding-large w3-padding-64">
-                <p>I am an undergraduate student at UC San Diego pursuing my bachelor degree in computer science. I have
-                    an expected graduation date of June 2020 and plan to pursue further education by attaining a
-                    master's degree after that.
-                    I'm a professional <span class="tooltip">kathak<span class="tooltiptext">Kathak is one of the eight
+                <p>I am an incoming undergraduate student at UC San Diego pursuing my bachelor degree in computer science. I have an expected graduation date of June 2020 and plan to pursue further education by attaining a master's degree after that. I'm
+                    a professional <span class="tooltip">kathak<span class="tooltiptext">Kathak is one of the eight
                             major forms of Indian classical dance. The origin of Kathak is traditionally attributed to
                             the traveling bards of ancient northern India known as Kathakars or
                             storytellers.</span></span>
                     dancer of the Lucknow <span class="tooltip">gharana<span class="tooltiptext">A system of linking
                             musicians or dancers by lineage or apprenticeship, and by adherence to a particular musical
                             style.</span></span>
-                    and have practiced for over nine years under my guru, Vibha Ramaswami. My years of practice
-                    culminated into a final solo two hour performance of eight different pieces.
-                    I have also received professional vocal training for over five years at the TAAQademy in Bangalore,
-                    India, and performed in music videos and on other public platforms.</p>
+                    and have practiced for over nine years under my guru, Vibha Ramaswami. My years of practice culminated into a final solo two hour performance of eight different pieces. I have also received professional vocal training for over five years at the TAAQademy
+                    in Bangalore, India, and performed in music videos and on other public platforms.</p>
             </div>
         </div>
     </div>
 
     <div class="w3-row w3-center w3-dark-grey w3-padding-16">
         <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">12</span><br>
-            Technical Languages
+            <span class="w3-xlarge">12</span><br> Technical Languages
         </div>
         <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">7</span><br>
-            Quarters of<br>
-            Tutoring Experience
+            <span class="w3-xlarge">7</span><br> Quarters of<br> Tutoring Experience
         </div>
         <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">2</span><br>
-            Internships
+            <span class="w3-xlarge">2</span><br> Internships
         </div>
         <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">10+</span><br>
-            Projects
+            <span class="w3-xlarge">10+</span><br> Projects
         </div>
     </div>
 
@@ -199,24 +184,21 @@
         <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
         <div class="w3-row-padding w3-center">
             <div class="w3-col m4">
-                <img src="/images/servicenow.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-                    alt="Over the summer of 2018, I had the opportunity to work at ServiceNow in San Diego as a Quality Engineering Intern under my manager, Abelardo Hernandez.
+                <img src="/images/servicenow.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Over the summer of 2018, I had the opportunity to work at ServiceNow in San Diego as a Quality Engineering Intern under my manager, Abelardo Hernandez.
                     Through the internship, I wrote basic scripts in JavaScript, built a small-scale weather application in Java, performed bi-weekly regression testing, wrote automated Selenium tests using ServiceNow's codebase and verified problem stories and fix targets.
                     ServiceNow also gave me the chance to network with professionals in the field while having an enjoyable summer. They encouraged social service activity through days of volunteering work and took us for a baseball game in San Diego. 
                     Due to my performance, my internship got extended beyond the summer into a part-time job through the fall quarter of my junior year. Though quality engineering is not within my area of interest in CS, I definitely learned a lot that summer and valued the opportunity given to me greatly.">
             </div>
 
             <div class="w3-col m4">
-                <img src="/images/Workday.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-                    alt="Over the summer of 2019, I had the opportunity to work at Workday in Pleasantaon as an Software Applications Engineering Intern under my manager, Balasubramanian Kumar.
+                <img src="/images/Workday.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Over the summer of 2019, I had the opportunity to work at Workday in Pleasantaon as an Software Applications Engineering Intern under my manager, Balasubramanian Kumar.
                     Workday uses their own proprietary language called XpressO (XO). Through the summer, I built various REST API's (namely, a POST and various GET calls) using XO and built a reference application to demonstrate the use of these API's. 
                     I also implemented various validations and error-checking on these REST API's to ensure the data being passed in was valid. At the end of the summer, my partner and I presented our work on a poster board in the form a science fair style session. 
                     We also created a demo video and held a knowledge sharing meeting for the developers who were to take up and fully implement the rest of our project. The internship was very memorable and well structured. I got to make many good friends, explore San Francisco through company-held outings and learn the day-to-day on how a large-scale tech company runs.">
             </div>
 
             <div class="w3-col m4">
-                <img src="/images/CSELogo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-                    alt="Since fall quarter of my sophomore year, I have served as a student instructor for the CSE department at UC San Diego. I have tutored for CSE 8A (Fall '17), CSE 8B (Winter '18) and CSE 100 (Spring '19) with Professor Yingjun Cao; I have tutored for CSE 8A (Winter '19), CSE 12 (Spring '18) and CSE 15L (Spring '18, Fall '18 & Winter '19) with Professor Gary Gillespie and I am tutoring for CSE 130 (Fall '19) with Professor Nadia Polikarpova.
+                <img src="/images/CSELogo.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Since fall quarter of my sophomore year, I have served as a student instructor for the CSE department at UC San Diego. I have tutored for CSE 8A (Fall '17), CSE 8B (Winter '18) and CSE 100 (Spring '19) with Professor Yingjun Cao; I have tutored for CSE 8A (Winter '19), CSE 12 (Spring '18) and CSE 15L (Spring '18, Fall '18 & Winter '19) with Professor Gary Gillespie and I am tutoring for CSE 130 (Fall '19) with Professor Nadia Polikarpova.
                     My job as a tutor over these 7 quarters involved holding numerous tutor hours, proctoring both midterm and final exams, answering questions posted on the Q/A platform, grading weekly programming assignments and exams, writing testing scripts for automated grading and helping with other basic logistical work wherever I can.
                     Tutoring has been my opportunity to give back to the CSE department for all they helped me with when I first joined UC San Diego. I have learned what it takes to make a college class run and how much manpower it involves. This small insight into academia is informative of what a potential future in education might look like for me.">
             </div>
@@ -255,14 +237,14 @@
             </div>
             <div class="w3-col m8 w3-panel w3-center">
                 <div class="w3-large w3-margin-bottom">
-                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> San Diego,
-                    US<br>
-                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
-                    s1doshi@ucsd.edu<br>
-                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
-                    s1doshi@eng.ucsd.edu<br>
-                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
-                    shivanidoshi26@gmail.com<br>
+                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> San Diego, US
+                    <br>
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: s1doshi@ucsd.edu
+                    <br>
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: s1doshi@eng.ucsd.edu
+                    <br>
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: shivanidoshi26@gmail.com
+                    <br>
                 </div>
                 <p>I'd love your feedback <i class="fa fa-comments"></i></p>
             </div>
@@ -295,7 +277,10 @@
         }
 
         // Change style of navbar on scroll
-        window.onscroll = function () { myFunction() };
+        window.onscroll = function() {
+            myFunction()
+        };
+
         function myFunction() {
             var navbar = document.getElementById("myNavbar");
             if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
